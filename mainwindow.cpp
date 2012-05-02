@@ -111,6 +111,7 @@ void MainWindow::on_diceButton_clicked()
     else
     {
         Move(0);
+        updateBoard();
     }
 
     if (gameEnd)
